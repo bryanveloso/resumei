@@ -1,24 +1,58 @@
-import "./index.css";
-import { APITester } from "./APITester";
+import { useState } from 'react'
+import { PDFViewer } from '@react-pdf/renderer'
 
-import logo from "./logo.svg";
-import reactLogo from "./react.svg";
+import baseData from './data/base.json'
+import Resume from './layouts/resume'
+
+import './index.css'
+
+type LayoutKey = 'standard'
+type VersionKey = 'base' | string
 
 export function App() {
+  const [selectedLayout, setSelectedLayout] = useState<LayoutKey>('standard')
+  const [selectedVersion, setSelectedVersion] = useState<VersionKey>('base')
+
+  const versionData: Record<VersionKey, typeof baseData> = {
+    base: baseData
+  }
+
   return (
     <div className="app">
-      <div className="logo-container">
-        <img src={logo} alt="Bun Logo" className="logo bun-logo" />
-        <img src={reactLogo} alt="React Logo" className="logo react-logo" />
+      <h1>Resumei</h1>
+      <div className="logo-container"></div>
+
+      <div className="controls">
+        <div className="version-selector">
+          <label htmlFor="version">Select Version:</label>
+          <select
+            id="version"
+            name="version"
+            value={selectedVersion}
+            onChange={(e) => setSelectedVersion(e.target.value)}>
+            <option value="base">Base</option>
+          </select>
+        </div>
+
+        <div className="layout-selector">
+          <label htmlFor="layout">Select Layout:</label>
+          <select
+            id="layout"
+            name="layout"
+            value={selectedLayout}
+            onChange={(e) => setSelectedLayout(e.target.value as LayoutKey)}>
+            <option value="standard">Standard</option>
+          </select>
+        </div>
       </div>
 
-      <h1>Bun + React</h1>
-      <p>
-        Edit <code>src/App.tsx</code> and save to test HMR
-      </p>
-      <APITester />
+      <div className="preview">
+        <PDFViewer width="100%" height="100%">
+          <Resume data={versionData[selectedVersion]} layout={selectedLayout} />
+        </PDFViewer>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

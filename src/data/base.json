@@ -1,0 +1,69 @@
+{
+  "basics": {
+    "name": "Bryan Veloso",
+    "label": "Entrepreneur, Hobbyist & Content Creator",
+    "email": "bryan@velo.so",
+    "location": "Glendale, CA",
+    "phone": "(310) 871-5481",
+    "summary": "Versatile professional with 20 years of experience in web design, product development, and content creation at companies including Facebook, GitHub, Twitch, and VShojo. Self-taught in both design and development with a focus on human-centered approaches. I combine technical UI/UX expertise with content creator experience to build engaging products and foster authentic communities through transparent, empathetic leadership.",
+    "site:url": "https://avalonstar.com",
+    "portfolio:url": "https://bryanvelo.so"
+  },
+  "experience": [
+    {
+      "company": "VShojo",
+      "position": "VP of Product and Design",
+      "startDate": "2022-10",
+      "endDate": "2023-05",
+      "location": "Los Angeles, CA (Remote)",
+      "url": "https://vshojo.com",
+      "highlights": [
+        "Ensured brand consistency and enrichment among artists and merchandise partners",
+        "Collaborated with vendors to create a unique meet-and-greet experience for virtual talent",
+        "Supervised direct reports to ensure meeting of artistic requests from talent",
+        "Empowered direct reports to focus on projects that generated joy and excitement."
+      ]
+    },
+    {
+      "company": "Altair Interactive",
+      "position": "Founder & CEO",
+      "startDate": "2020-07",
+      "endDate": "2022-03",
+      "location": "Los Angeles, CA (Remote)",
+      "url": "https://altair.tv",
+      "highlights": [
+        "Developed a streaming service mindful of creators' mental health throughout the creative experience.",
+        "Handled daily operations, managing a multidisciplinary team of nine, with skills ranging from user research to backend engineering.",
+        "Employed business expertise to take on all administrative roles, including company formation, fundraising, hiring, payroll, benefits, and so forth.",
+        "Handled the company's social media presence, fostering community and creating excitement for the product."
+      ]
+    },
+    {
+      "company": "Twitch",
+      "position": "Full-Time Partnered Broadcaster",
+      "startDate": "2016-02",
+      "location": "Los Angeles, CA",
+      "url": "https://twitch.tv/avalonstar",
+      "highlights": [
+        "Fostered relationships with industry representatives to become to go-to outlet for user interface-related media coverage.",
+        "Founded and managed numerous cross-talent projects ranging from stream teams to multi-community tournaments.",
+        "Created and became intimately familiar with designing and coding of overlay systems."
+      ]
+    },
+    {
+      "company": "Twitch",
+      "position": "UI/UX Designer",
+      "startDate": "2014-04",
+      "endDate": "2016-02",
+      "location": "Los Angeles, CA (Remote)",
+      "url": "https://twitch.tv",
+      "highlights": [
+        "Led the design of the company's chat and social experiences, including Whispers and Friends products.",
+        "Initiated and designed highly-requested end-user features, including Chat's Emoticon Selector and Theater Mode.",
+        "Leveraged my role to advocate for and ensure that the needs and frustrations of fellow content creators were being addressed in product development."
+      ]
+    }
+  ],
+  "education": [],
+  "skills:": []
+}
