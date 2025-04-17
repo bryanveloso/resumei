@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
     paddingLeft: 36,
     paddingRight: 36,
-    paddingTop: 12,
+    paddingTop: -3,
     textTransform: 'uppercase'
   },
   item: {
@@ -23,7 +23,9 @@ const styles = StyleSheet.create({
     paddingLeft: 36,
     paddingRight: 36
   },
-  highlights: {},
+  highlights: {
+    paddingTop: 4
+  },
   highlight: {
     display: 'flex',
     flexDirection: 'row',
