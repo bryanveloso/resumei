@@ -47,7 +47,7 @@ export function App() {
       </div>
 
       <div className="preview">
-        <PDFViewer width="100%" height="100%">
+        <PDFViewer width="100%" height="100%" style={{ border: 'none' }}>
           <Resume data={versionData[selectedVersion]} layout={selectedLayout} />
         </PDFViewer>
       </div>
