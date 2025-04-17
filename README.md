@@ -1,4 +1,8 @@
-# bun-react-template
+# Resumei
+
+A simple experiment to create a resume builder for myself. It's generally unfinished. Resumei takes a JSON file and allows you to generate a PDF from it. You probably shouldn't use this unless you're a masochist.
+
+## Directions
 
 To install dependencies:
 
@@ -17,5 +21,3 @@ To run for production:
 ```bash
 bun start
 ```
-
-This project was created using `bun init` in bun v1.2.8. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
