@@ -9,3 +9,7 @@ Font.register({
     { src: 'https://cdn.jsdelivr.net/fontsource/fonts/poppins@latest/latin-700-normal.ttf', fontWeight: 'bold' }
   ]
 })
+
+Font.registerHyphenationCallback((word) => {
+  return [word]
+})
